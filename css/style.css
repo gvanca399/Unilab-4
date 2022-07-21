@@ -215,3 +215,82 @@ body .about h5{
     margin-top:90px;
     text-align: end;
 }
+
+/* blog page */
+.blog-container{
+    max-width: 1248px;
+    margin: 0 auto;
+}
+section .blog-container .news-end-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:42px 0 80px 0;
+}
+section .blog-container .news-end-search .news h4{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;    
+    line-height: 29px;
+}
+input[type=text] {
+    width: 370px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    font-size: 16px;
+    background-image: url('../assets/search\ icon.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+    outline: none;
+}
+section .blog-container .subjects .subject-list ul{
+    display: flex;
+    justify-content: center;
+    gap:65px ;
+    margin-bottom: 70px;
+}
+section .blog-container .subjects .subject-list ul a{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+section .blog-container .subjects .subject-box{
+    display: flex;
+}
+section .blog-container .subjects .subject-box .info {
+    background: #E5EBE5;
+    border-radius: 0px 14px 14px 0px;
+    padding: 38px 0 38px 36px;
+    margin-left:22px ;
+}
+section .blog-container .subjects .subject-box .info h5{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom:32px ;
+}
+section .blog-container .subjects .subject-box .info p{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 17px;
+    color: #474747;
+}
+section .blog-container .subjects button{
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin-top: 14px;
+    margin-bottom: 80px;
+}
